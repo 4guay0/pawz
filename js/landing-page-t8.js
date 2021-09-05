@@ -6,7 +6,7 @@ function validarDatos(){
    let passwordVrf = document.getElementById("passwordVrf").value;
    
    if(password === passwordVrf){
-      document.location.href = '../private/index.html';
+      document.location.href = '/pawz/private/index.html';
       console.log("Deberia ir a inicio");
    }
    else{

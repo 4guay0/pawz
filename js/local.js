@@ -26,7 +26,7 @@ function login(){
         localStorage.setItem("Usuario",user);
         localStorage.setItem("Passwd",pass);
         log = true;
-        location.href="../pawz/private/index.html";
+        location.href="/pawz/private/index.html";
       }
     }
     if(log != true){
@@ -54,7 +54,7 @@ function login(){
 
 //Asignar datos de usuario a la NavBar
 function sessionInit(){
-    document.getElementById("profileName").innerHTML = '<img src="/resources/vaca/Mask Group.png" style="width: 15%;"> '+ localStorage.getItem("Usuario");
+    document.getElementById("profileName").innerHTML = '<img src="/pawz/resources/vaca/Mask Group.png" style="width: 15%;"> '+ localStorage.getItem("Usuario");
 }
 
 //Función para las partes compartidas entre público y privado para definir Navbar a mostrar
@@ -67,7 +67,7 @@ function sessionInitPublic(){
 
     if(localStorage.getItem("Usuario") != null && localStorage.getItem("Usuario") != ""){
        document.getElementById("navbarLogout").style.display = "none";
-       document.getElementById("profileName").innerHTML = '<img src="/resources/vaca/Mask Group.png" style="width: 15%;"> '+ localStorage.getItem("Usuario");
+       document.getElementById("profileName").innerHTML = '<img src="/pawz/resources/vaca/Mask Group.png" style="width: 15%;"> '+ localStorage.getItem("Usuario");
     }
     else{
         document.getElementById("navbarLogin").style.display = "none";
@@ -83,7 +83,7 @@ function sessionInitPublic(){
 function logout(){
     localStorage.setItem("Usuario", "");
     localStorage.setItem("Passwd", "");
-    location.href="../pawz/index.html";
+    location.href="/pawz/index.html";
 }
 
 

@@ -1,6 +1,6 @@
 //Redirecciona a formulario de registro
 
   function Redirect()
-  { location.href = "../index.html#register"; }
+  { location.href = "/pawz/index.html#register"; }
 
   
