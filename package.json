@@ -1,0 +1,23 @@
+{
+  "name": "pawz",
+  "version": "1.0.0",
+  "description": "USANDO EL BASH DE GIT",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/TadeoMagallanes/pawz.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/TadeoMagallanes/pawz/issues"
+  },
+  "homepage": "https://gitlab.com/TadeoMagallanes/pawz#readme",
+  "dependencies": {
+    "mysql": "^2.18.1"
+  }
+}

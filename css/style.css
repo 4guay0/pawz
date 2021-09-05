@@ -1,0 +1,332 @@
+.first{
+  /* background: #F4F9F9; */
+  /* background: white;
+  color: rgb(56, 46, 46); */
+  background-color: white;
+  background-size: cover;
+  text-align: center;
+  /* padding-left: 0;
+  padding-right: 0;
+  margin-left: 0;
+  margin-right: 0; */
+}
+
+
+/* BackGorund tarea tres */
+.second{
+  /* background: #F4F9F9; */
+  /* background: white;
+  color: rgb(56, 46, 46); */
+  background-image: url("https://cdn.discordapp.com/attachments/850032849310449726/854859142212878346/Group_42.png");
+  background-size: cover;
+  text-align: center;
+  /* padding-left: 0;
+  padding-right: 0;
+  margin-left: 0;
+  margin-right: 0; */
+}
+
+/* div [class|="col"]{
+   border: 1px solid #ffc107; 
+} */
+
+/* .btn-outline-secondary, .btn-outline-secondary:hover, .btn-outline-secondary:active, .btn-outline-secondary:visited {
+  background-color: #FF577F;
+} */
+
+
+
+
+.logo{
+  text-decoration:none;
+  font-family: 'Fredoka One', cursive;
+  font-size: 22px;
+  color: inherit;
+  color: #454639;
+  /* background-color: #ffc107; */
+}
+
+.aboutUs{
+  text-decoration:none;
+  font-family: 'Fredoka One', cursive;
+  font-size: 64px;
+  color: #454639;
+  margin-top: 60px; 
+}
+
+.padre {
+  background-color: #fafafa;
+  /* margin: 1rem;
+  padding: 1rem;
+  border: 2px solid #ccc; */
+  /* IMPORTANTE */
+  text-align: center;
+}
+
+.derecha{
+  text-align: right;
+}
+
+textarea {
+  color: grey;
+  width: 75%;
+  height: 150px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid white;
+  background-color: white;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 16px;
+  resize: none;
+}
+
+input[type=text], select {
+  color: grey;
+  width: 37%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid white;
+  background-color: white;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=tel], select {
+  color: grey;
+  width: 37%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid white;
+  background-color: white;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=email], select {
+  color: grey;
+  width: 75%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid white;
+  background-color: white;
+  border-radius: 4px;
+  box-sizing: border-box;    
+}
+
+input[type=password], select {
+  color: grey;
+  width: 75%;
+  height: 50px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid white;
+  background-color: white;
+  border-radius: 4px;
+  box-sizing: border-box;    
+}
+
+input[type=date], select {
+  color: grey;
+  width: 75%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid white;
+  background-color: white;
+  border-radius: 4px;
+  box-sizing: border-box;    
+}
+
+input[type=submit] {
+  width: 10%;
+  background-color: #845ec2;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.sticky {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 3;
+}
+
+.stickyRight {
+  position: fixed;
+  right: 0;
+  z-index: 0;
+}
+
+.sidebarContent{
+  left: 0;
+}
+
+.contenidopublicacion{
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  width: 40%;
+  text-align: left;
+  margin-left: 15px;
+}
+    
+.imagenpublicacion{
+  position: relative;
+  display: inline-block;
+}
+
+#contenido{
+  text-align: center;
+}
+
+.botones{
+  vertical-align: bottom;
+}
+
+#cuerpo{
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  width: 65vw;
+}
+
+#sidebar{
+  background: black;
+  width: 20vw;
+  height: 100vh;
+  position: relative;
+  display: inline-block;
+}
+
+.tabla_contenido{
+  margin-top: 10px;
+  display: block;
+  font-size: 18px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  width: 100%;
+  text-align: start;
+}
+
+.publicacion_perfil{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  padding-top: 16px;
+  text-align: left;
+}
+    
+.publicacion_hashtag{
+  margin-top: 5px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  padding-top: 2px;
+}
+
+.publicacion_imagen{
+  padding: 2px;
+  width: 100px;
+  height: 100px;
+}
+.boton_publicacion{
+  margin-top: 5px;
+}
+
+#newPost{
+  font-family: 'Fredoka One', cursive;
+  font-size: 30px;
+  margin-top: 5px;
+  padding-top: 15px;
+  border: #3f0946 solid 1px;
+  border-radius: 8%;
+}
+
+#sideBarTitle{
+  font-family: 'Fredoka One', cursive;
+  font-size: 26px;
+  text-align: right;
+}
+
+#sideBarSubTitle{
+  font-size: 18px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  text-align: right;
+}
+
+
+#SuggestedAccounts{
+  font-family: 'Fredoka One', cursive;
+  font-size: 15px;
+  text-align: right;
+}
+
+#sideBarhashTags{
+  font-size: 18px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  text-align: right;
+
+}
+
+#contadorMeGusta{
+  font-size: 15px;
+  font-weight: bold;
+  color: #ff577f;
+}
+#botonMeGusta{
+  width:100px;
+  height:15px;
+  border:none;
+  font-weight: bold;
+  color: #ff577f;
+} 
+
+#contadorCompartir{
+  font-size: 15px;
+  font-weight: bold;
+  color:#ff577f;
+}
+#botonCompartir{
+  width:100px;
+  height:15px;
+  border:none;
+  font-weight: bold;
+  color:#ff577f;
+} 
+ 
+#contadorComentar{
+  font-size: 15px;
+  font-weight: bold;
+  color: #ff577f;
+}
+#botonComentar{
+  width:100px;
+  height:15px;
+  border:none;
+  font-weight: bold;
+  color: #ff577f;
+} 
+
+#modalSubTitle{
+  font-size: 22px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+}
+
+#profileName{
+  font-family: 'Fredoka One', cursive;
+  font-size: 20px;
+  color: #393e46;
+}

@@ -1,0 +1,42 @@
+use pawz_database;
+
+CREATE TABLE if not exists`Usuario` (
+  `IdUsuario` int,
+  `Nombre` varchar(50),
+  `Passwd` varchar(14),
+  `Correo` varchar(50),
+  `ImgPerfil` varchar(50),
+  `Ubicacion` varchar(50),
+  primary key(`IdUsuario`)
+)engine=InnoDB;
+
+CREATE TABLE if not exists `Publicacion` (
+  `IdPublicacion` int,
+  `IdUsuario` int,
+  `Contenido` varchar(500),
+  `Imagen` varchar(50),
+  `hashtag` varchar(50),
+  `paws` int,
+  PRIMARY KEY(`IdPublicacion`),
+  FOREIGN KEY (`IdPublicacion`) REFERENCES `Usuario`(`IdUsuario`)
+)engine=InnoDB;
+
+CREATE TABLE if not exists `Friends` (
+  `IdUsuario` int,
+  `IdAmiwo` int,
+  primary key(`IdUsuario`),
+  constraint fkIdUsuario
+  foreign key(`IdUsuario`) references `Usuario`(`IdUsuario`),
+  foreign key(`IdAmiwo`) references `Usuario`(`IdUsuario`)
+)engine=InnoDB;
+
+CREATE TABLE if not exists `Comentarios` (
+  `IdComentario` int,
+  `IdUsuario` int,
+  `IdPublicacion` int,
+  `Contenido` varchar(500),
+  `paws` int,
+  primary key(`IdComentario`),
+  FOREIGN KEY (`IdPublicacion`) REFERENCES `Usuario`(`IdUsuario`),
+  FOREIGN KEY (`IdComentario`) REFERENCES `Publicacion`(`IdPublicacion`)
+)engine=InnoDB;
